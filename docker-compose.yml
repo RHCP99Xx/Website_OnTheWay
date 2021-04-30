@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  venus:
+    image: venus
+    build:
+      context: .
+      dockerfile: ./Dockerfile
